@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>YouTube</title>
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <!-- Link for icons in Materialize-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="YouTube.css">
+</head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+<body>
+    <nav>
+        <div class="#212121 grey darken-4 row">
+            <div style="margin:5px;">
+                <div class="col s12 m6 l4" id="icon-menu brand-logo">
+                    <a href="#!" class="brand-logo left  col s12 m6 l4 ">
+                        <i class="material-icons  col waves-effect waves-circle waves-light " id="menu-icon">menu</i>
+                        <img src="youTube-logo.jpg" alt="YouTube" id="youtube-logo" style="margin-right: 10px;" class="col  " />
+                        <span class="brand-logo col  hide-on-small-only">YouTube<sup>BG</sup></span>
+                    </a>
+                </div>
+                <div class="col hide-on-small-only hide-on-med-only  l4">
+                    <div>
+                        <input type="text" placeholder="Search" class="col  l10" id="search" />
+                     <div class="col  l2 waves-effect waves-light btn-small " id="btn-search">
+                        <i class="material-icons" id="icon-search">search</i>
+                    </div>
+                    </div>
+                </div>
+                <div class="s6 m6 l4">
+                    <ul class="right" class="s12 m6 l4" style="margin:5px;">
+                        <li>
+                            <a href="#" class="">
+                                <i class="material-icons">video_call</i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="">
+                                <i class="material-icons">view_module</i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="">
+                                <i class="material-icons">more_vert</i>
+                            </a>
+                        </li>
+                        <li id="li-btn">
+                            <a class="waves-effect waves-light btn-small" id="btn-signin">
+                                <i class="material-icons left " style="color:lightblue;">account_circle</i>Sign In
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <main>
+        <div class="row">
+
+            <ul class="hide-on-small-only col m12 l2 " id="side-nav">
+                <li>
+                    <i class="material-icons">home</i>
+                    <span href="#Home">Home</span>
+
+                </li>
+
+                <li>
+                    <i class="material-icons">whatshot</i>
+                    <span>Trending</span>
+                </li>
+
+                <li class="bottom-line">
+                    <i class="material-icons" class="bottom-line">subscriptions</i>
+                    <span>Subscriptions</span>
+                </li>
+                <li>
+                    <i class="material-icons">folder</i>
+                    <span>Library</span>
+                </li>
+
+                <li>
+                    <i class="material-icons">history</i>
+                    <span>History</span>
+                </li>
+                
+                <li>
+                        <p>&copy 2019 YouTube, LLC</p>
+                    </li>
+            </ul>
+
+            <div class="col l10">
+                <h5>Recommended</h5>
+                <div class="col l3">
+                    <div class="card row" style="margin:10px;">
+                        <div class="card-image">
+                            <img src="https://via.placeholder.com/350x200.png" alt="photo">
+                            <div class="middle">
+                                <i class="material-icons ">play_circle_filled</i>
+                            </div>
+                        </div>
+                        <div class="card-contentleft2">
+                            <div class="col l4">
+                                <img src="./dog.jpg" alt="picture" class="circle responsive-img"
+                                    style="width:45px; margin: 10px;" />
+                            </div>
+                            <div class="col l8">
+                                <span class="singer-span">Shawn Mendes</span>
+                                <p style="clear:both;">Lorem ipsum dolor sit amet</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col l3">
+                    <div class="card row" style="margin:10px;">
+                        <div class="card-image">
+                            <img src="https://via.placeholder.com/350x200.png" alt="photo">
+                            <div class="middle">
+                                <i class="material-icons ">play_circle_filled</i>
+                            </div>
+                        </div>
+                        <div class="card-contentleft2">
+                            <div class="col l4">
+                                <img src="./dog.jpg" alt="picture" class="circle responsive-img"
+                                    style="width:45px; margin: 10px;" />
+                            </div>
+                            <div class="col l8">
+                                <span class="singer-span">Shawn Mendes</span>
+                                <p style="clear:both;">Lorem ipsum dolor sit amet</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col l3">
+                    <div class="card row" style="margin:10px;">
+                        <div class="card-image">
+                            <img src="https://via.placeholder.com/350x200.png" alt="photo">
+                            <div class="middle">
+                                <i class="material-icons ">play_circle_filled</i>
+                            </div>
+                        </div>
+                        <div class="card-contentleft2">
+                            <div class="col l4">
+                                <img src="./dog.jpg" alt="picture" class="circle responsive-img"
+                                    style="width:45px; margin: 10px;" />
+                            </div>
+                            <div class="col l8">
+                                <span class="singer-span">Shawn Mendes</span>
+                                <p style="clear:both;">Lorem ipsum dolor sit amet</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col l3">
+                    <div class="card row" style="margin:10px;">
+                        <div class="card-image">
+                            <img src="https://via.placeholder.com/350x200.png" alt="photo" />
+                            <div class="middle">
+                                <i class="material-icons ">play_circle_filled</i>
+                            </div>
+                        </div>
+                        <div class="card-contentleft2">
+                            <div class="col l4">
+                                <img src="./dog.jpg" alt="picture" class="circle responsive-img"
+                                    style="width:45px; margin: 10px;" />
+                            </div>
+                            <div class="col l8">
+                                <span class="singer-span">Shawn Mendes</span>
+                                <p style="clear:both;">Lorem ipsum dolor sit amet</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col l3">
+                    <div class="card row" style="margin:10px;">
+                        <div class="card-image">
+                            <img src="https://via.placeholder.com/350x200.png" alt="photo">
+                            <div class="middle">
+                                <i class="material-icons ">play_circle_filled</i>
+                            </div>
+                        </div>
+
+                        <div class="card-contentleft2">
+                            <div class="col l4">
+                                <img src="./dog.jpg" alt="picture" class="circle responsive-img"
+                                    style="width:45px; margin: 10px;" />
+                            </div>
+                            <div class="col l8">
+                                <span class="singer-span">Shawn Mendes</span>
+                                <p style="clear:both;">Lorem ipsum dolor sit amet</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col l3">
+                    <div class="card row" style="margin:10px;">
+                        <div class="card-image">
+                            <img src="https://via.placeholder.com/350x200.png" alt="photo">
+                            <div class="middle">
+                                <i class="material-icons ">play_circle_filled</i>
+                            </div>
+                        </div>
+                        <div class="card-contentleft2">
+                            <div class="col l4">
+                                <img src="./dog.jpg" alt="picture" class="circle responsive-img"
+                                    style="width:45px; margin: 10px;" />
+                            </div>
+                            <div class="col l8">
+                                <span class="singer-span">Shawn Mendes</span>
+                                <p style="clear:both;">Lorem ipsum dolor sit amet</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col l3">
+                    <div class="card row" style="margin:10px;">
+                        <div class="card-image">
+                            <img src="https://via.placeholder.com/350x200.png" alt="photo">
+                            <div class="middle">
+                                <i class="material-icons ">play_circle_filled</i>
+                            </div>
+                        </div>
+                        <div class="card-contentleft2">
+                            <div class="col l4">
+                                <img src="./dog.jpg" alt="picture" class="circle responsive-img"
+                                    style="width:45px; margin: 10px;" />
+                            </div>
+                            <div class="col l8">
+                                <span class="singer-span">Shawn Mendes</span>
+                                <p style="clear:both;">Lorem ipsum dolor sit amet</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col l3">
+                    <div class="card row" style="margin:10px;">
+                        <div class="card-image">
+                            <img src="https://via.placeholder.com/350x200.png" alt="photo">
+                            <div class="middle">
+                                <i class="material-icons ">play_circle_filled</i>
+                            </div>
+                        </div>
+                        <div class="card-contentleft2">
+                            <div class="col l4">
+                                <img src="./dog.jpg" alt="picture" class="circle responsive-img"
+                                    style="width:45px; margin: 10px;" />
+                            </div>
+                            <div class="col l8">
+                                <span class="singer-span">Shawn Mendes</span>
+                                <p style="clear:both;">Lorem ipsum dolor sit amet</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        </div>
+    </main>
+
+    </div>
+    <script>
+        $(document).ready(function () {
+            $("#menu-icon").click(function () {
+                $("#side-nav span, #side-nav p").toggle();
+            });
+        });
+    </script>
+</body>
+
+</html>
